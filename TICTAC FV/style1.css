@@ -1,0 +1,57 @@
+#container{
+	
+	display: flex;
+	height:450px ;
+	width:700px ;
+	
+	background-image: url("IIIT Delhi.jpg");
+	margin: auto;
+	margin-top: 60px;
+	border-radius: 15%;
+	justify-content: center;
+	align-items: center;
+	position: relative; 
+	font-family: "permanent marker", cursive;
+	text-align: center;
+
+}
+button{
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+	position: absolute;
+	top: 120%;
+	font-size: 20px;
+	color: #c41d1d;
+	border: 2px solid #15f4ee;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: 1.5s;
+	
+}
+
+#button:hover{
+	box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+            0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+
+text-shadow: 0 0 5px #15f4ee,0 0 5px #15f4ee;
+}
+
+body{
+	
+	display: flex;  
+  background:  no-repeat
+  center center/cover;
+background-image: url(56.jpg)  
+;
+
+
+}
+
+#score{
+    font-family: "consolas", monospace;
+    font-size: 30px;}
+
+
+
+	
